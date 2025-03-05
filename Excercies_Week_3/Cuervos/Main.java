@@ -7,7 +7,7 @@ public class Main {
         pollitoAmarillito.volar();
 
         System.out.println("Ave No Voladora");
-        AveNoVoladora plebillo = new AveNoVoladora("Gael");
-        plebillo.caminar();
+        AveNoVoladora pinguino = new AveNoVoladora("Gael");
+        pinguino.caminar();
     }
 }
