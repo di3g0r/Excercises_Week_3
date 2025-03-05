@@ -3,12 +3,12 @@ package Excercies_Week_3.Notificacion;
 public class Main {
     public static void main(String[] args) {
         CanalNotificacion email = new CorreoElectronico();
-        email.enviarMensaje("Cuerno de Chivo Azul4do");
+        email.enviarMensaje("Como estan");
 
         CanalNotificacion wpp = new WhatsApp();
-        wpp.enviarMensaje("Sergio tec");
+        wpp.enviarMensaje("Hola");
 
         CanalNotificacion sms = new SMS();
-        sms.enviarMensaje("Colchones Wendy");
+        sms.enviarMensaje("Adios");
     }
 }
