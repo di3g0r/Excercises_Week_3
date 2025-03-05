@@ -8,8 +8,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        Reporte reporte = new Reporte("Los Plebes del Rancho", "Ariel Camacho", 
-            "El karma viene y se va, tambien se dice por hay...");
+        Reporte reporte = new Reporte("El Rancho", "Ariel Camacho", 
+            "Aqui reportando");
 
         ReporteArchivo reporteArchivo = new ReporteArchivo();
 
